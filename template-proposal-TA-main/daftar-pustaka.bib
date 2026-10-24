@@ -1,0 +1,434 @@
+% ============================================================
+% REFERENSI KERANGKA PROPOSAL v0.6.2
+% Sumber: kerangka_pra_ta_revisi_v0.6.2.pdf, hlm. 16--18.
+% Nomor [1]--[30] mengikuti PDF; nomor sitasi hasil render dapat berbeda.
+% Metadata dilengkapi dari arXiv, prosiding, dan halaman penerbit.
+% Gunakan kunci di teks Typst, misalnya: @schroeder2026vcache.
+% Dokumentasi tanpa tahun terbit tidak diberi tahun rekaan.
+% Tanggal akses dokumentasi diperbarui ke tanggal pengecekan: 2026-10-24.
+% ============================================================
+
+% [1] Penulis mengikuti BibTeX resmi ACL: Bang, Fu (satu penulis).
+% PDF kerangka mencantumkan Bang Fu dan Di Feng; berbeda dari metadata ACL.
+@inproceedings{bang2023gptcache,
+  author    = {Bang, Fu},
+  title     = {{GPTCache}: An Open-Source Semantic Cache for {LLM} Applications Enabling Faster Answers and Cost Savings},
+  booktitle = {Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS 2023)},
+  year      = {2023},
+  publisher = {Association for Computational Linguistics},
+  address   = {Singapore},
+  pages     = {212--218},
+  doi       = {10.18653/v1/2023.nlposs-1.24},
+  url       = {https://aclanthology.org/2023.nlposs-1.24/},
+}
+
+% [2] Tahun konferensi 2026; prapublikasi pertama pada 2025.
+@inproceedings{schroeder2026vcache,
+  author    = {Schroeder, Luis Gaspar and Desai, Aditya and Cuadron Lafuente, Alejandro and Chu, Kyle and Liu, Shu and Zhao, Mark and Krusche, Stephan and Kemper, Alfons and Zaharia, Matei and Gonzalez, Joseph E.},
+  title     = {{vCache}: Verified Semantic Prompt Caching},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2026},
+  eprint    = {2502.03771},
+  archivePrefix = {arXiv},
+  url       = {https://proceedings.iclr.cc/paper_files/paper/2026/hash/9559cd2116de7a8f5672eac3fcd232cc-Abstract-Conference.html},
+}
+
+% [3] Mengikuti versi prapublikasi revisi 2023 yang dirujuk kerangka.
+@misc{bruch2023fusion,
+  author    = {Bruch, Sebastian and Gai, Siyu and Ingber, Amir},
+  title     = {An Analysis of Fusion Functions for Hybrid Retrieval},
+  year      = {2023},
+  eprint    = {2210.11934},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2210.11934},
+  url       = {https://arxiv.org/abs/2210.11934v2},
+}
+
+% [4]
+@misc{qdrantFullTextBm25,
+  author       = {{Qdrant}},
+  title        = {Full-Text Search: {BM25}},
+  howpublished = {Dokumentasi teknis resmi Qdrant},
+  url          = {https://qdrant.tech/documentation/search/text-search/full-text-search/},
+  urldate      = {2026-10-24},
+}
+
+% [5]
+@misc{sklearnRocCurve,
+  author       = {{scikit-learn developers}},
+  title        = {sklearn.metrics.roc\_curve},
+  howpublished = {Dokumentasi teknis resmi scikit-learn},
+  url          = {https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html},
+  urldate      = {2026-10-24},
+}
+
+% [6]
+@article{youden1950index,
+  author  = {Youden, W. J.},
+  title   = {Index for Rating Diagnostic Tests},
+  journal = {Cancer},
+  year    = {1950},
+  volume  = {3},
+  number  = {1},
+  pages   = {32--35},
+  doi     = {10.1002/1097-0142(1950)3:1<32::AID-CNCR2820030106>3.0.CO;2-3},
+  url     = {https://pubmed.ncbi.nlm.nih.gov/15405679/},
+}
+
+% [7] Tahun konferensi 2020; prapublikasi pertama pada 2019.
+@inproceedings{zhang2020bertscore,
+  author    = {Zhang, Tianyi and Kishore, Varsha and Wu, Felix and Weinberger, Kilian Q. and Artzi, Yoav},
+  title     = {{BERTScore}: Evaluating Text Generation with {BERT}},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2020},
+  eprint    = {1904.09675},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/1904.09675},
+}
+
+% [8]
+@misc{zheng2023judging,
+  author    = {Zheng, Lianmin and Chiang, Wei-Lin and Sheng, Ying and Zhuang, Siyuan and Wu, Zhanghao and Zhuang, Yonghao and Lin, Zi and Li, Zhuohan and Li, Dacheng and Xing, Eric P. and Zhang, Hao and Gonzalez, Joseph E. and Stoica, Ion},
+  title     = {Judging {LLM-as-a-Judge} with {MT-Bench} and {Chatbot Arena}},
+  year      = {2023},
+  eprint    = {2306.05685},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2306.05685},
+  url       = {https://arxiv.org/abs/2306.05685},
+}
+
+% [9]
+@misc{sklearnCohenKappaScore,
+  author       = {{scikit-learn developers}},
+  title        = {sklearn.metrics.cohen\_kappa\_score},
+  howpublished = {Dokumentasi teknis resmi scikit-learn},
+  url          = {https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html},
+  urldate      = {2026-10-24},
+}
+
+% [10]
+@misc{li2024scalm,
+  author    = {Li, Jiaxing and Xu, Chi and Wang, Feng and von Riedemann, Isaac M. and Zhang, Cong and Liu, Jiangchuan},
+  title     = {{SCALM}: Towards Semantic Caching for Automated Chat Services with Large Language Models},
+  year      = {2024},
+  eprint    = {2406.00025},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2406.00025},
+  url       = {https://arxiv.org/abs/2406.00025},
+}
+
+% [11] Judul mengikuti versi 2024 yang dirujuk PDF (arXiv v3).
+@misc{gill2024meancache,
+  author    = {Gill, Waris and Elidrisi, Mohamed and Kalapatapu, Pallavi and Ahmed, Ammar and Anwar, Ali and Gulzar, Muhammad Ali},
+  title     = {{MeanCache}: User-Centric Semantic Cache for Large Language Model Based Web Services},
+  year      = {2024},
+  eprint    = {2403.02694},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2403.02694},
+  url       = {https://arxiv.org/abs/2403.02694v3},
+}
+
+% [12]
+@inproceedings{liu2026semantic,
+  author    = {Liu, Xutong and Atalar, Baran and Dai, Xiangxiang and Zuo, Jinhang and Wang, Siwei and Lui, John C. S. and Chen, Wei and Joe-Wong, Carlee},
+  title     = {Semantic Caching for Low-Cost {LLM} Serving: From Offline Learning to Online Adaptation},
+  booktitle = {IEEE International Conference on Computer Communications (INFOCOM)},
+  year      = {2026},
+  url       = {https://www.microsoft.com/en-us/research/publication/semantic-caching-for-low-cost-llm-serving-from-offline-learning-to-online-adaptation/},
+}
+
+% [13]
+@misc{singh2026asynchronous,
+  author    = {Singh, Asmit Kumar and Wang, Haozhe and Attaluri, Laxmi Naga Santosh and Chiam, Tak and Zhu, Weihua},
+  title     = {Asynchronous Verified Semantic Caching for Tiered {LLM} Architectures},
+  year      = {2026},
+  eprint    = {2602.13165},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2602.13165},
+  url       = {https://arxiv.org/abs/2602.13165},
+}
+
+% [14]
+@misc{yan2025contextcache,
+  author    = {Yan, Jianxin and Ni, Wangze and Chen, Lei and Lin, Xuemin and Cheng, Peng and Qin, Zhan and Ren, Kui},
+  title     = {{ContextCache}: Context-Aware Semantic Cache for Multi-Turn Queries in Large Language Models},
+  year      = {2025},
+  eprint    = {2506.22791},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2506.22791},
+  url       = {https://arxiv.org/abs/2506.22791},
+}
+
+% [15]
+@misc{mansoor2026freshcache,
+  author    = {Mansoor, Muhammad and Ahmad, Tahir and Yoon, Yeo-Chan},
+  title     = {Risk-Constrained Freshness-Aware Semantic Caching for Open-Web Retrieval-Augmented {LLMs}},
+  year      = {2026},
+  eprint    = {2607.04281},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2607.04281},
+  url       = {https://arxiv.org/abs/2607.04281},
+}
+
+% [16]
+@misc{ru2024ragchecker,
+  author    = {Ru, Dongyu and Qiu, Lin and Hu, Xiangkun and Zhang, Tianhang and Shi, Peng and Chang, Shuaichen and Jiayang, Cheng and Wang, Cunxiang and Sun, Shichao and Li, Huanyu and Zhang, Zizhao and Wang, Binjie and Jiang, Jiarong and He, Tong and Wang, Zhiguo and Liu, Pengfei and Zhang, Yue and Zhang, Zheng},
+  title     = {{RAGChecker}: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation},
+  year      = {2024},
+  eprint    = {2408.08067},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2408.08067},
+  url       = {https://arxiv.org/abs/2408.08067},
+}
+
+% [17] Mengikuti tahun dan versi prapublikasi dalam kerangka.
+@misc{thakur2024judging,
+  author    = {Thakur, Aman Singh and Choudhary, Kartik and Ramayapally, Venkat Srinik and Vaidyanathan, Sankaran and Hupkes, Dieuwke},
+  title     = {Judging the Judges: Evaluating Alignment and Vulnerabilities in {LLMs-as-Judges}},
+  year      = {2024},
+  eprint    = {2406.12624},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2406.12624},
+  url       = {https://arxiv.org/abs/2406.12624v1},
+}
+
+% [18]
+@misc{wang2025category,
+  author    = {Wang, Chen and Liu, Xunzhuo and Zhu, Yue and Youssef, Alaa and Nagpurkar, Priya and Chen, Huamin},
+  title     = {Category-Aware Semantic Caching for Heterogeneous {LLM} Workloads},
+  year      = {2025},
+  eprint    = {2510.26835},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2510.26835},
+  url       = {https://arxiv.org/abs/2510.26835},
+}
+
+% [19]
+@misc{kim2025rethinking,
+  author    = {Kim, Jungwoo and Kim, Minsang and Lee, Jaeheon and Moon, Chanwoo and Kim, Heejin and Hwang, Taeho and Chung, Woosuk and Kim, Yeseong and Lee, Sungjin},
+  title     = {Rethinking Caching for {LLM} Serving Systems: Beyond Traditional Heuristics},
+  year      = {2025},
+  eprint    = {2508.18736},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2508.18736},
+  url       = {https://arxiv.org/abs/2508.18736},
+}
+
+% [20] Judul versi terbaru mengikuti kerangka; judul awal: Closing the Calibration Gap in Semantic Caching.
+@misc{baral2026operational,
+  author    = {Baral, Aditeya and Ralev, Radoslav and Zhechev, Iliya Sotirov and Rajamohan, Srijith and Agarwal, Jen},
+  title     = {Closing the Operational Gap in Semantic Caching},
+  year      = {2026},
+  eprint    = {2606.19719},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2606.19719},
+  url       = {https://arxiv.org/abs/2606.19719},
+}
+
+% [21] Tahun volume jurnal 2023; terbit daring pertama pada 2022.
+@article{guan2023localized,
+  author  = {Guan, Leying},
+  title   = {Localized Conformal Prediction: A Generalized Inference Framework for Conformal Prediction},
+  journal = {Biometrika},
+  year    = {2023},
+  volume  = {110},
+  number  = {1},
+  pages   = {33--50},
+  doi     = {10.1093/biomet/asac040},
+  url     = {https://doi.org/10.1093/biomet/asac040},
+}
+
+% [22] Nama penulis dikoreksi berdasarkan halaman penerbit (berbeda dari PDF kerangka).
+@article{hassanzad2024cutpoint,
+  author  = {Hassanzad, Mojtaba and Hajian-Tilaki, Karimollah},
+  title   = {Methods of Determining Optimal Cut-Point of Diagnostic Biomarkers with Application of Clinical Data in {ROC} Analysis: An Update Review},
+  journal = {BMC Medical Research Methodology},
+  year    = {2024},
+  volume  = {24},
+  number  = {1},
+  eid     = {84},
+  doi     = {10.1186/s12874-024-02198-2},
+  url     = {https://doi.org/10.1186/s12874-024-02198-2},
+}
+
+% [23]
+@inproceedings{angelopoulos2024risk,
+  author    = {Angelopoulos, Anastasios N. and Bates, Stephen and Fisch, Adam and Lei, Lihua and Schuster, Tal},
+  title     = {Conformal Risk Control},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2024},
+  url       = {https://proceedings.iclr.cc/paper_files/paper/2024/hash/f3549ef9b5ff520a7e41ff3cc306ab2b-Abstract-Conference.html},
+}
+
+% [24]
+@inproceedings{ghosh2023neighborhood,
+  author    = {Ghosh, Subhankar and Belkhouja, Taha and Yan, Yan and Doppa, Janardhan Rao},
+  title     = {Improving Uncertainty Quantification of Deep Classifiers via Neighborhood Conformal Prediction: Novel Algorithm and Theoretical Analysis},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  year      = {2023},
+  volume    = {37},
+  number    = {6},
+  pages     = {7722--7730},
+  doi       = {10.1609/aaai.v37i6.25936},
+  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/25936},
+}
+
+% [25] Tahun volume jurnal 2025; terbit daring pertama pada 2024.
+@article{hore2025localweights,
+  author  = {Hore, Rohan and Barber, Rina Foygel},
+  title   = {Conformal Prediction with Local Weights: Randomization Enables Robust Guarantees},
+  journal = {Journal of the Royal Statistical Society Series B: Statistical Methodology},
+  year    = {2025},
+  volume  = {87},
+  number  = {2},
+  pages   = {549--578},
+  doi     = {10.1093/jrsssb/qkae103},
+  url     = {https://doi.org/10.1093/jrsssb/qkae103},
+}
+
+% [26] Tahun volume jurnal 2024; terbit daring pertama pada 2023.
+@article{swaminathan2024selective,
+  author  = {Swaminathan, Akshay and Lopez, Ivan and Wang, William and Srivastava, Ujwal and Tran, Edward and Bhargava-Shah, Aarohi and Wu, Janet Y. and Ren, Alexander L. and Caoili, Kaitlin and Bui, Brandon and Alkhani, Layth and Lee, Susan and Mohit, Nathan and Seo, Noel and Macedo, Nicholas and Cheng, Winson and Liu, Charles and Thomas, Reena and Chen, Jonathan H. and Gevaert, Olivier},
+  title   = {Selective Prediction for Extracting Unstructured Clinical Data},
+  journal = {Journal of the American Medical Informatics Association},
+  year    = {2024},
+  volume  = {31},
+  number  = {1},
+  pages   = {188--197},
+  doi     = {10.1093/jamia/ocad182},
+  url     = {https://doi.org/10.1093/jamia/ocad182},
+}
+
+% [27]
+@article{zhao2024decisioncurve,
+  author  = {Zhao, Luqing and Leng, Yueshuang and Hu, Yongbin and Xiao, Juxiong and Li, Qingling and Liu, Chuyi and Mao, Yitao},
+  title   = {Understanding Decision Curve Analysis in Clinical Prediction Model Research},
+  journal = {Postgraduate Medical Journal},
+  year    = {2024},
+  volume  = {100},
+  number  = {1185},
+  pages   = {512--515},
+  doi     = {10.1093/postmj/qgae027},
+  url     = {https://doi.org/10.1093/postmj/qgae027},
+}
+
+% [28]
+@article{rink2025postselection,
+  author  = {Rink, Pascal and Brannath, Werner},
+  title   = {Post-selection Confidence Bounds for Prediction Performance},
+  journal = {Machine Learning},
+  year    = {2025},
+  volume  = {114},
+  eid     = {82},
+  doi     = {10.1007/s10994-024-06632-w},
+  url     = {https://doi.org/10.1007/s10994-024-06632-w},
+}
+
+% [29]
+@inproceedings{noskov2024selective,
+  author    = {Noskov, Fedor and Fishkov, Alexander and Panov, Maxim},
+  title     = {Selective Nonparametric Regression via Testing},
+  booktitle = {Proceedings of the 15th Asian Conference on Machine Learning},
+  year      = {2024},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {222},
+  pages     = {1023--1038},
+  publisher = {PMLR},
+  url       = {https://proceedings.mlr.press/v222/noskov24a.html},
+}
+
+% [30]
+@article{riley2024validation,
+  author  = {Riley, Richard D. and Archer, Lucinda and Snell, Kym I. E. and Ensor, Joie and Dhiman, Paula and Martin, Glen P. and Bonnett, Laura J. and Collins, Gary S.},
+  title   = {Evaluation of Clinical Prediction Models (Part 2): How to Undertake an External Validation Study},
+  journal = {BMJ},
+  year    = {2024},
+  volume  = {384},
+  eid     = {e074820},
+  doi     = {10.1136/bmj-2023-074820},
+  url     = {https://doi.org/10.1136/bmj-2023-074820},
+}
+
+% ============================================================
+% REFERENSI CONTOH BAWAAN TEMPLATE (AICAREER / UI-UX)
+% Dipertahankan karena masih disitasi dalam isi contoh Bab 1--3.
+% Dapat dihapus setelah seluruh sitasi contoh diganti.
+% ============================================================
+
+// ===============================================
+// Daftar Pustaka
+// Tambahkan referensi di sini dalam format BibTeX
+// Gunakan key di teks: contoh wolniak2023design
+// ===============================================
+
+@article{abdillah2024peran,
+  author  = {Abdillah, Fazli},
+  title   = {Peran perguruan tinggi dalam meningkatkan kualitas sumber daya manusia di indonesia},
+  journal = {EDUCAZIONE: Jurnal Multidisiplin},
+  volume  = {1},
+  number  = {1},
+  pages   = {13--24},
+  year    = {2024},
+}
+
+@article{solehuddin2023pendidikan,
+  author  = {Solehuddin, HM},
+  title   = {Pendidikan tinggi dan prospek perekonomian nasional di tengah ketidakpastian global},
+  journal = {Ksa. Upi. Edu},
+  pages   = {1--13},
+  year    = {2023},
+}
+
+@article{aji2023metode,
+  author  = {Aji, Adam and Budiyono, Nararya and Suhirman, Suhirman and Ratnasari, Devi and Sejati, Rr Hajar},
+  title   = {Metode Design Thinking Untuk Perancangan UI/UX Pada Aplikasi Konsultasi Karir},
+  journal = {INTEK: Jurnal Informatika dan Teknologi Informasi},
+  volume  = {6},
+  number  = {1},
+  pages   = {42--48},
+  year    = {2023},
+}
+
+@article{wolniak2023design,
+  author    = {Wolniak, Rados{\l}aw},
+  title     = {Design thinking and its use to boast innovativeness},
+  journal   = {Zeszyty Naukowe. Organizacja i Zarz{\k{a}}dzanie/Politechnika {\'S}l{\k{a}}ska},
+  number    = {170},
+  pages     = {647--662},
+  year      = {2023},
+  publisher = {Politechnika {\'S}l{\k{a}}ska. Wydawnictwo Politechniki {\'S}l{\k{a}}skiej},
+}
+
+@article{faridha2024metode,
+  author  = {Faridha, Siti and Yulianti, S and Sugiarti, Y},
+  title   = {Metode Perancangan User Interface yang Paling Umum Digunakan: Systematic Literature Review},
+  journal = {Binary Digital-Technology},
+  volume  = {7},
+  number  = {1},
+  year    = {2024},
+}
+
+@techreport{wef2023jobs,
+  author      = {{World Economic Forum}},
+  title       = {The Future of Jobs Report 2023},
+  institution = {World Economic Forum},
+  year        = {2023},
+  address     = {Geneva},
+  url         = {https://www3.weforum.org/docs/WEF_Future_of_Jobs_2023.pdf},
+}
+
+@misc{gibbons2016design,
+  author       = {Gibbons, Sarah},
+  title        = {Design Thinking 101},
+  year         = {2016},
+  month        = {7},
+  organization = {Nielsen Norman Group},
+  url          = {https://www.nngroup.com/articles/design-thinking/},
+}
+
+@misc{idf2025design,
+  author = {{Interaction Design Foundation}},
+  title  = {5 Stages in the Design Thinking Process},
+  year   = {2025},
+  url    = {https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process},
+}
